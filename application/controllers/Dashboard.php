@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Dashboard extends CI_Controller {
-	private $role = 'guru';
+	private $role = 'admin';
 
   public function __construct()
   {
@@ -23,6 +23,8 @@ class Dashboard extends CI_Controller {
 			$data['sidebar'] = $this->load->view('layout/siswa/sidebar','',true);
 			$data['content'] = $this->load->view('pages/siswa/dashboard','',true);
 			$this->load->view('layout/master',array('template'=>$data));
+		} else {
+			redirect('');
 		}
 	}
 }

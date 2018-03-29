@@ -67,6 +67,12 @@
                         </li>
                         <li class="nav-item start">
                             <a href="javascript:;" class="nav-link nav-toggle">
+                                <i class="icon-calendar"></i>
+                                <span class="title">Event</span>
+                            </a>
+                        </li>
+                        <li class="nav-item start">
+                            <a href="javascript:;" class="nav-link nav-toggle">
                                 <i class="icon-feed"></i>
                                 <span class="title">Pengumuman</span>
                                 <span class="selected"></span>
